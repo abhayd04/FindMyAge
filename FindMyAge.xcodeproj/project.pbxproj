@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6B69F2932E3EA63500AB4953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B69F2742E3EA63400AB4953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B69F27B2E3EA63400AB4953;
+			remoteInfo = FindMyAge;
+		};
+		6B69F29D2E3EA63500AB4953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B69F2742E3EA63400AB4953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B69F27B2E3EA63400AB4953;
+			remoteInfo = FindMyAge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B69F27C2E3EA63400AB4953 /* FindMyAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B69F2922E3EA63500AB4953 /* FindMyAgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyAgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B69F29C2E3EA63500AB4953 /* FindMyAgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyAgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6B69F2A42E3EA63500AB4953 /* Exceptions for "FindMyAge" folder in "FindMyAge" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6B69F27B2E3EA63400AB4953 /* FindMyAge */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B69F27E2E3EA63400AB4953 /* FindMyAge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6B69F2A42E3EA63500AB4953 /* Exceptions for "FindMyAge" folder in "FindMyAge" target */,
+			);
+			path = FindMyAge;
+			sourceTree = "<group>";
+		};
+		6B69F2952E3EA63500AB4953 /* FindMyAgeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindMyAgeTests;
+			sourceTree = "<group>";
+		};
+		6B69F29F2E3EA63500AB4953 /* FindMyAgeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FindMyAgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B69F2792E3EA63400AB4953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69F28F2E3EA63500AB4953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69F2992E3EA63500AB4953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B69F2732E3EA63400AB4953 = {
+			isa = PBXGroup;
+			children = (
+				6B69F27E2E3EA63400AB4953 /* FindMyAge */,
+				6B69F2952E3EA63500AB4953 /* FindMyAgeTests */,
+				6B69F29F2E3EA63500AB4953 /* FindMyAgeUITests */,
+				6B69F27D2E3EA63400AB4953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B69F27D2E3EA63400AB4953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B69F27C2E3EA63400AB4953 /* FindMyAge.app */,
+				6B69F2922E3EA63500AB4953 /* FindMyAgeTests.xctest */,
+				6B69F29C2E3EA63500AB4953 /* FindMyAgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B69F27B2E3EA63400AB4953 /* FindMyAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B69F2A52E3EA63500AB4953 /* Build configuration list for PBXNativeTarget "FindMyAge" */;
+			buildPhases = (
+				6B69F2782E3EA63400AB4953 /* Sources */,
+				6B69F2792E3EA63400AB4953 /* Frameworks */,
+				6B69F27A2E3EA63400AB4953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B69F27E2E3EA63400AB4953 /* FindMyAge */,
+			);
+			name = FindMyAge;
+			packageProductDependencies = (
+			);
+			productName = FindMyAge;
+			productReference = 6B69F27C2E3EA63400AB4953 /* FindMyAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B69F2912E3EA63500AB4953 /* FindMyAgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B69F2AA2E3EA63500AB4953 /* Build configuration list for PBXNativeTarget "FindMyAgeTests" */;
+			buildPhases = (
+				6B69F28E2E3EA63500AB4953 /* Sources */,
+				6B69F28F2E3EA63500AB4953 /* Frameworks */,
+				6B69F2902E3EA63500AB4953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B69F2942E3EA63500AB4953 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B69F2952E3EA63500AB4953 /* FindMyAgeTests */,
+			);
+			name = FindMyAgeTests;
+			packageProductDependencies = (
+			);
+			productName = FindMyAgeTests;
+			productReference = 6B69F2922E3EA63500AB4953 /* FindMyAgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B69F29B2E3EA63500AB4953 /* FindMyAgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B69F2AD2E3EA63500AB4953 /* Build configuration list for PBXNativeTarget "FindMyAgeUITests" */;
+			buildPhases = (
+				6B69F2982E3EA63500AB4953 /* Sources */,
+				6B69F2992E3EA63500AB4953 /* Frameworks */,
+				6B69F29A2E3EA63500AB4953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B69F29E2E3EA63500AB4953 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B69F29F2E3EA63500AB4953 /* FindMyAgeUITests */,
+			);
+			name = FindMyAgeUITests;
+			packageProductDependencies = (
+			);
+			productName = FindMyAgeUITests;
+			productReference = 6B69F29C2E3EA63500AB4953 /* FindMyAgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B69F2742E3EA63400AB4953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6B69F27B2E3EA63400AB4953 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					6B69F2912E3EA63500AB4953 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6B69F27B2E3EA63400AB4953;
+					};
+					6B69F29B2E3EA63500AB4953 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6B69F27B2E3EA63400AB4953;
+					};
+				};
+			};
+			buildConfigurationList = 6B69F2772E3EA63400AB4953 /* Build configuration list for PBXProject "FindMyAge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B69F2732E3EA63400AB4953;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B69F27D2E3EA63400AB4953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B69F27B2E3EA63400AB4953 /* FindMyAge */,
+				6B69F2912E3EA63500AB4953 /* FindMyAgeTests */,
+				6B69F29B2E3EA63500AB4953 /* FindMyAgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B69F27A2E3EA63400AB4953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69F2902E3EA63500AB4953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69F29A2E3EA63500AB4953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B69F2782E3EA63400AB4953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69F28E2E3EA63500AB4953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69F2982E3EA63500AB4953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B69F2942E3EA63500AB4953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B69F27B2E3EA63400AB4953 /* FindMyAge */;
+			targetProxy = 6B69F2932E3EA63500AB4953 /* PBXContainerItemProxy */;
+		};
+		6B69F29E2E3EA63500AB4953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B69F27B2E3EA63400AB4953 /* FindMyAge */;
+			targetProxy = 6B69F29D2E3EA63500AB4953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B69F2A62E3EA63500AB4953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindMyAge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhay.FindMyAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B69F2A72E3EA63500AB4953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindMyAge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhay.FindMyAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B69F2A82E3EA63500AB4953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B69F2A92E3EA63500AB4953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B69F2AB2E3EA63500AB4953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhay.FindMyAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyAge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMyAge";
+			};
+			name = Debug;
+		};
+		6B69F2AC2E3EA63500AB4953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhay.FindMyAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyAge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMyAge";
+			};
+			name = Release;
+		};
+		6B69F2AE2E3EA63500AB4953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhay.FindMyAgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyAge;
+			};
+			name = Debug;
+		};
+		6B69F2AF2E3EA63500AB4953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhay.FindMyAgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyAge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B69F2772E3EA63400AB4953 /* Build configuration list for PBXProject "FindMyAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B69F2A82E3EA63500AB4953 /* Debug */,
+				6B69F2A92E3EA63500AB4953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B69F2A52E3EA63500AB4953 /* Build configuration list for PBXNativeTarget "FindMyAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B69F2A62E3EA63500AB4953 /* Debug */,
+				6B69F2A72E3EA63500AB4953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B69F2AA2E3EA63500AB4953 /* Build configuration list for PBXNativeTarget "FindMyAgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B69F2AB2E3EA63500AB4953 /* Debug */,
+				6B69F2AC2E3EA63500AB4953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B69F2AD2E3EA63500AB4953 /* Build configuration list for PBXNativeTarget "FindMyAgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B69F2AE2E3EA63500AB4953 /* Debug */,
+				6B69F2AF2E3EA63500AB4953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B69F2742E3EA63400AB4953 /* Project object */;
+}
